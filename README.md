@@ -1,26 +1,24 @@
 # sherlock-test
 
-beautifulsoup4>=4.8.0
+pip install bs4
 
-bs4>=0.0.1
+pip install certifi
 
-certifi>=2019.6.16
+pip install colorama
 
-colorama>=0.4.1
+pip install lxml
 
-lxml>=4.4.0
+pip install PySocks
 
-PySocks>=1.7.0
+pip install requests
 
-requests>=2.22.0
+pip install requests-futures
 
-requests-futures>=1.0.0
-
-soupsieve>=1.9.2
+pip install soupsieve
 
 install from git to fix RuntimeError: dictionary keys changed during iteration
 change to stem>=1.7.2 or greater when available
 
 -e git+https://git.torproject.org/stem.git@b5aecb7#egg=stem
 
-torrequest>=0.1.0
+pip install torrequest
